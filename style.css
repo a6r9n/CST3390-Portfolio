@@ -108,8 +108,8 @@ nav ul li a:hover, nav ul li a.active {
     margin: 0;
 }
 
-/* Proposal Content */
-.proposal-content {
+/* Proposal and WIP Content */
+.doc-content {
     max-width: 900px;
     margin: 40px auto;
     padding: 20px;
@@ -118,35 +118,35 @@ nav ul li a:hover, nav ul li a.active {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.proposal-content h2 {
+.doc-content h2 {
     font-size: 24px;
     color: #314992;
     margin-bottom: 15px;
 }
 
-.proposal-content h3 {
+.doc-content h3 {
     font-size: 20px;
     color: #264653;
     margin-top: 15px;
 }
 
-.proposal-content p {
+.doc-content p {
     font-size: 16px;
     line-height: 1.6;
     color: #333;
 }
 
-.proposal-content ul {
+.doc-content ul {
     padding-left: 20px;
 }
 
-.proposal-content ul li {
+.doc-content ul li {
     margin-bottom: 8px;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .proposal-content {
+    .doc-content {
         padding: 15px;
     }
 
